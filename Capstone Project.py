@@ -190,7 +190,7 @@ def search_member():
     if not found:
         print("Member not found.\n")
 
-# CREATE MENU
+# New Member (CREATE MENU)
 def create_menu():
     while True:
         print("\n=== CREATE MENU ===")
@@ -212,10 +212,7 @@ def create_menu():
         else:
             print("Invalid choice. Please try again.")
 
-
-# =========================
-# READ MENU
-# =========================
+# Member Information (READ MENU)
 def read_menu():
     while True:
         print("\n=== READ MENU ===")
@@ -240,7 +237,7 @@ def read_menu():
         else:
             print("Invalid choice. Please try again.")
 
-# UPDATE MENU
+# Update Member Information (UPDATE MENU)
 def update_menu():
     while True:
         print("\n=== UPDATE MENU ===")
@@ -262,7 +259,7 @@ def update_menu():
         else:
             print("Invalid choice. Please try again.")
 
-# DELETE MENU
+# Delete Member Information (DELETE MENU)
 def delete_menu():
     while True:
         print("\n=== DELETE MENU ===")
@@ -288,10 +285,10 @@ def delete_menu():
 def main_menu():
     while True:
         print("\n=== GYM MEMBERSHIP SYSTEM ===")
-        print("1. Create Menu")
-        print("2. Read Menu")
-        print("3. Update Menu")
-        print("4. Delete Menu")
+        print("1. New Member")
+        print("2. Member Information")
+        print("3. Update Member")
+        print("4. Delete Member")
         print("5. Exit")
 
         choice = input("Choose Menu: ")
@@ -309,5 +306,5 @@ def main_menu():
             break
         else:
             print("Invalid choice. Please try again.")
-
+#RUN
 main_menu()
